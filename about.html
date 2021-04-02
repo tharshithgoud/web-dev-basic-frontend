@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Linkkin Park | About</title>
+        <meta name="description" contents = "This is the description">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
-                    <li>HOME</li>
-                    <li>STORE</li>
-                    <li>ABOUT</li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Linkin Park</h1>
+            <h1 class ="band-name band-name-large">Linkin Park</h1>
         </header>
-        <section>
-            <h2>ABOUT</h2>
+        <section class="content-section container">
+            <h2 class="section-header">ABOUT</h2>
+            <img class="about-band-image" src="Images/LinkinPark.png" alt="Linkin Park">
             <p>
                 Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist Mike Shinoda, 
                  lead guitarist Brad Delson, bassist Dave Farrell, DJ/turntablist Joe Hahn and drummer Rob Bourdon, all of whom are founding members. Vocalists Mark Wakefield 
@@ -27,21 +29,41 @@
                   Rock chart; the latter crossed over to the pop chart. Their second album, Meteora (2003), continued the band's success. The band explored experimental 
                   sounds on their third album, Minutes to Midnight (2007). By the end of the decade, Linkin Park was among the most successful and popular rock acts.
             </p>
-            <img src="Images/LinkinPark.png" alt="Linkin Park" style="width: 400px;">
+            
             <p>
                 The band continued to explore a wider variation of musical types on their fourth album, A Thousand Suns (2010), layering their music with more electronic sounds.
                  The band's fifth album, Living Things (2012), combined musical elements from all of their previous records. Their sixth album, The Hunting Party (2014), returned 
                  to a heavier rock sound, and their seventh album, One More Light (2017), was their first pop-oriented record. Linkin Park went on a hiatus when longtime lead 
                  vocalist Bennington died by suicide in July 2017. In April 2020, bassist Dave Farrell revealed the band was working on new music.
             </p>
+            <p>
+                Originally consisting of three high school friends, Linkin Park’s foundation was anchored by Mike Shinoda, Brad Delson, and Rob Bourdon. After graduating from high school, the California natives began to take their musical interests more seriously, recruiting Joe Hahn, Dave "Phoenix" Farrell, and Mark Wakefield to perform in their band, Xero. Though limited in resources, the band began recording and producing songs within Shinoda’s make-shift bedroom studio in 1996. Tensions and frustration within the band grew after they failed to land a record deal. The lack of success and stalemate in progress prompted Wakefield, at that time the band's vocalist, to leave the band in search for other projects. Farrell also left to tour with Tasty Snax and other bands.
+            </p>
+            <p>
+                After spending a considerable time searching for Wakefield's replacement, Xero recruited Arizona vocalist Chester Bennington. Jeff Blue, the vice president of Zomba Music, had referred him to the band in March 1999. Bennington, formerly of Grey Daze, became a standout among applicants because of his unique singing style. The band changed its name from Xero to Hybrid Theory in 1998. The newborn vocal chemistry between Shinoda and Bennington helped revive the band, inciting them to work on new material. The band’s renaissance culminated with a change in name; from Hybrid Theory, the band changed its name to Linkin Park in 2000, a play on and homage to Santa Monica’s Lincoln Park. However, despite these changes, the band still struggled to sign a record deal. After facing numerous rejections from several major record labels, Linkin Park turned to Jeff Blue for additional help. After failing to catch Warner Bros. Records on three previous reviews, Jeff Blue, now the vice president of Warner Bros. Records, helped the band sign a deal with the company in 1999. The band released its breakthrough album, Hybrid Theory, the following year.
+            </p>
         </section>
-        <footer>
-            <h3>Linkin Park</h3>
-            <ul>
-                <li><img src="Images/Facebook Logo.png"></li>
-                <li><img src="Images/YouTube Logo.png"></li>
-                <li><img src="Images/Spotify Logo.png"></li>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="band-name" style="color: black;">Linkin Park</h3>
+           <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="Images/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="Images/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="Images/Facebook Logo.png">
+                    </a>
+                </li>
             </ul>
+        </div>
         </footer>
     </body>
 </html>
